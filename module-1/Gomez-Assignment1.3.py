@@ -27,4 +27,6 @@ def get_bottle_count(): #create get bottle count function with validation
         except ValueError:
             print("Invalid input. Please enter a whole number")
 
-main()
+
+if __name__ == "__main__":
+    main()
